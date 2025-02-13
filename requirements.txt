@@ -1,6 +1,9 @@
 streamlit
 tensorflow
-absl-py
+keras
 numpy
 pandas
-keras
+scikit-learn
+nltk
+matplotlib
+absl-py
