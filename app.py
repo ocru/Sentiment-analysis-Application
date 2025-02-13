@@ -10,6 +10,8 @@ import pickle
 import numpy as np
 from tensorflow import keras
 from tensorflow.keras.preprocessing.sequence import pad_sequences
+import os
+print(os.listdir('.')) 
 
 # Load model and tokenizer
 model = keras.models.load_model("model.keras")
